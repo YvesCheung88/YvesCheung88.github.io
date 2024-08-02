@@ -1,4 +1,6 @@
 <script>
+	import ThemeController from '$lib/component/ThemeController.svelte';
+	import '../app.css';
 </script>
 
 <nav>
@@ -7,13 +9,16 @@
 		<li><a href="/">Portfolio</a></li>
 		<li><a href="/">Contact</a></li>
 		<li><a href="/">CV</a></li>
+		<li class="theme-controller-wrapper">
+			<ThemeController />
+		</li>
 	</ul>
 </nav>
 <slot></slot>
 
 <style>
 	nav {
-		margin-top: 30px;
+		margin: 30px;
 	}
 	.header-menu {
 		display: flex;
@@ -31,5 +36,8 @@
 	}
 	.header-menu a:hover {
 		background-color: blue;
+	}
+	.theme-controller-wrapper {
+		margin-left: auto;
 	}
 </style>
