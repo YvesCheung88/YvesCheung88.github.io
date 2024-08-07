@@ -8,7 +8,7 @@
 		<li><a href="/Blog">Blog</a></li>
 		<li><a href="/Portfolio">Portfolio</a></li>
 		<li><a href="/Contact">Contact</a></li>
-		<li><a href="/CV">CV</a></li>
+		<li><a href="/CV.pdf" target="_blank">CV</a></li>
 		<li class="theme-controller-wrapper">
 			<ThemeController />
 		</li>
