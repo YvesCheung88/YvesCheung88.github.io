@@ -5,10 +5,10 @@
 
 <nav>
 	<ul class="header-menu">
-		<li><a href="/">Blog</a></li>
-		<li><a href="/">Portfolio</a></li>
-		<li><a href="/">Contact</a></li>
-		<li><a href="/">CV</a></li>
+		<li><a href="/Blog">Blog</a></li>
+		<li><a href="/Portfolio">Portfolio</a></li>
+		<li><a href="/Contact">Contact</a></li>
+		<li><a href="/CV">CV</a></li>
 		<li class="theme-controller-wrapper">
 			<ThemeController />
 		</li>
